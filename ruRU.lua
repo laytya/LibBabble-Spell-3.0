@@ -284,13 +284,13 @@ if GetLocale() == "ruRU" then
 			["Arcane Missile"] = "Чародейский снаряд",
 			["Arcane Missiles +1"] = "Чародейские стрелы +1",
 			["Arcane Missiles"] = "Чародейские стрелы",
-			["Arcane Missiles"] = "Чародейский снаряд",
+			--["Arcane Missiles"] = "Чародейский снаряд",
 			["Arcane Potency"] = "Чародейское могущество",
 			["Arcane Power"] = "Мощь тайной магии",
-			["Arcane Protection"] = "Защита от тайной магии",
+			--["Arcane Protection"] = "Защита от тайной магии",
 			["Arcane Protection"] = "Чародейская защита",
-			["Arcane Resilience"] = "Чародейская стойкость",
-			["Arcane Resistance"] = "Сопротивление тайной магии",
+			["Arcane Resilience"] = "Чародейская стойкость", --Таланты/Маг
+			--["Arcane Resistance"] = "Сопротивление тайной магии", --Расовый навык гномов
 			["Arcane Shot Mana Reduction"] = "Чародейский выстрел - снижение расхода маны",
 			["Arcane Shot"] = "Чародейский выстрел",
 			["Arcane Shroud"] = "Чародейский покров",
@@ -525,9 +525,9 @@ if GetLocale() == "ruRU" then
 			["Axe Flurry"] = "Шквал топора",
 			["Axe Mastery"] = "Мастерство топоров",
 			["Axe Power"] = "Мощь топора",
-			["Axe Specialization"] = "Специализация на владении топорами",
-			["Axe Specialization"] = "Специализация на владении топором",
-			["Axe Specialization"] = "Специализация на топорах",
+			--["Axe Specialization"] = "Специализация на владении топорами", --Заклинания/Разное
+			--["Axe Specialization"] = "Специализация на владении топором", --Заклинания/Разное
+			["Axe Specialization"] = "Специализация на топорах", --Таланты/Воин
 			["Axe Toss"] = "Метание топора",
 			["Aynasha's Arrow"] = "Стрела Айнаши",
 			["Aynasha's Bow"] = "Лук Айнаши",
@@ -669,8 +669,8 @@ if GetLocale() == "ruRU" then
 			["Berserker Rage"] = "Ярость берсерка",
 			["Berserker Stance Passive"] = "Стойка берсерка - постоянное действие",
 			["Berserker Stance"] = "Стойка берсерка",
-			["Berserking"] = "Берсерк",
-			["Berserking"] = "Боевое исступление",
+			--["Berserking"] = "Берсерк", -- Рейдовые боссы
+			["Berserking"] = "Боевое исступление", --Рассовый/Троль
 			["Bestial Discipline"] = "Беспрекословное послушание",
 			["Bestial Fury Effect"] = "Эффект Звериного неистовства",
 			["Bestial Fury"] = "Звериное неистовство",
@@ -819,8 +819,8 @@ if GetLocale() == "ruRU" then
 			["Blood Sausage"] = "Кровяная колбаса",
 			["Blood Siphon"] = "Кровавый насос",
 			["Blood Talon"] = "Кровавый коготь",
-			["Blood Tap"] = "Кровеотвод",
-			["Blood Tap"] = "Кровоотвод",
+			["Blood Tap"] = "Кровеотвод", --Наксрамас/Страж Ледяной Короны
+			["Blood Tap"] = "Кровоотвод", --Наксрамас/Страж Ледяной Короны
 			["Blood Tiger Breastplate"] = "Кираса кровавого тигра",
 			["Blood Tiger Shoulders"] = "Наплечники кровавого тигра",
 			["Bloodfang"] = "Кровавый клык",
@@ -828,8 +828,8 @@ if GetLocale() == "ruRU" then
 			["Bloodlust II"] = "Штормовые волны 2",
 			["Bloodlust II"] = "Штормовые волны II",
 			["Bloodlust III"] = "Штормовые волны III",
-			["Bloodlust"] = "Жажда крови",
-			["Bloodlust"] = "Штормовые волны",
+			["Bloodlust"] = "Жажда крови", --Боссы
+			--["Bloodlust"] = "Штормовые волны",
 			["Bloodpetal Poison Proc"] = "Яд кровоцвета - дополнительный эффект",
 			["Bloodpetal Poison"] = "Яд кровоцвета",
 			["Bloodpetal Zapper"] = "Разряд кровоцвета",
@@ -840,8 +840,8 @@ if GetLocale() == "ruRU" then
 			["Bloodsoul Breastplate"] = "Кираса кровавого духа",
 			["Bloodsoul Gauntlets"] = "Рукавицы кровавого духа",
 			["Bloodsoul Shoulders"] = "Наплечники кровавого духа",
-			["Bloodthirst"] = "Жажда крови",
-			--["Bloodthirst"] = "Кровожадность",
+			--["Bloodthirst"] = "Жажда крови", --Таланты/Воин
+			["Bloodthirst"] = "Кровожадность", --Заклинания/Разное/Воин
 			["Bloodtooth's Totum"] = "Тотем Кровавого Клыка",
 			["Bloodvine Boots"] = "Сапоги кровавой лозы",
 			["Bloodvine Goggles"] = "Очки кровавой лозы",
@@ -913,8 +913,8 @@ if GetLocale() == "ruRU" then
 			["Bounty of the Harvest"] = "Дар урожая",
 			["Bow Mastery"] = "Мастерство лучника",
 			["Bow Power"] = "Мощь лука",
-			["Bow Specialization"] = "Специализация на владение луком",
-			["Bow Specialization"] = "Специализация на владении луками",
+			--["Bow Specialization"] = "Специализация на владение луком", --Заклинания/Разное
+			["Bow Specialization"] = "Специализация на владении луками", --Заклинания/Расовые навыки/Тролль
 			["Bows"] = "Луки",
 			["Brain Damage"] = "Повреждение мозга",
 			["Brain Food"] = "Пища для ума",
@@ -929,8 +929,8 @@ if GetLocale() == "ruRU" then
 			["Break Samophlange"] = "Сломанный самофланж",
 			["Break Stuff"] = "Прерывание дела",
 			["Break Tool"] = "Сломанный инструмент",
-			["Breath of Fire"] = "Дыхание Огня",
-			["Breath of Fire"] = "Дыхание огня",
+			["Breath of Fire"] = "Дыхание Огня", --Засапожная фляга Громовара
+			--["Breath of Fire"] = "Дыхание огня", --??
 			["Breath of Sargeras"] = "Дыхание Саргераса",
 			["Breath"] = "Дыхание",
 			["Bright Baubles"] = "Яркая блесна",
@@ -962,8 +962,8 @@ if GetLocale() == "ruRU" then
 			["Bronze Warhammer"] = "Бронзовый боевой молот",
 			["Brood Affliction"] = "Колдовство красных драконов",
 			["Brood Affliction: Black"] = "Колдовство черных драконов",
-			["Brood Affliction: Blue"] = "Колдовство синих драконов",
-			["Brood Affliction: Blue"] = "Чернокнижие Племени: Синее",
+			["Brood Affliction: Blue"] = "Колдовство синих драконов", --Заклинания/Разное/Логово Крыла Тьмы/Хроммагус
+			--["Brood Affliction: Blue"] = "Чернокнижие Племени: Синее", --Заклинания/Разное/Логово Крыла Тьмы/Хроммагус
 			["Brood Affliction: Bronze"] = "Колдовство бронзовых драконов",
 			["Brood Affliction: Green"] = "Колдовство зеленых драконов",
 			["Brood Affliction: Red"] = "Колдовство красных драконов",
@@ -983,8 +983,8 @@ if GetLocale() == "ruRU" then
 			["Brown Ram"] = "Бурый баран",
 			["Brown Skeletal Horse"] = "Гнедой конь-скелет",
 			["Brown Wolf"] = "Коричневый волк",
-			["Bruise"] = "Кровоподтек",
-			["Bruise"] = "Ушиб",
+			["Bruise"] = "Кровоподтек", --Заклинания/Разное/Питомец/Горилла
+			--["Bruise"] = "Ушиб", --Заклинания/Разное/Степи/NPC
 			["Bruiser Sleeping"] = "Спящий борец",
 			["Bruising Blow"] = "Болезненный удар",
 			["Brutal Impact"] = "Жестокий удар",
@@ -1007,8 +1007,8 @@ if GetLocale() == "ruRU" then
 			["Burning Tenacity"] = "Пылающая стойкость",
 			["Burning Winds"] = "Горящие ветра",
 			["Burning Wish"] = "Горящее желание",
-			["Burrow"] = "Нора",
-			["Burrow"] = "Червоточина",
+			--["Burrow"] = "Нора", --Заклинания/Разное/Руины Ан'Киража/Пескоброд из улья Зара
+			["Burrow"] = "Червоточина", --Заклинания/Разное/Руины Ан'Киража/Пескоброд из улья Зара
 			["Burst of Energy"] = "Прилив сил",
 			["Burst of Knowledge"] = "Кладезь знаний",
 			["Buru Egg Trigger Effect"] = "Эффект инициатора яйца Буру",
@@ -1159,8 +1159,8 @@ if GetLocale() == "ruRU" then
 			["Chicken"] = "Курица",
 			["Chill Nova"] = "Кольцо стужи",
 			["Chill Wind"] = "Студеный ветер",
-			["Chill"] = "Стужа",
-			--["Chill"] = "Холод",
+			["Chill"] = "Стужа", --Заклинания/Разное/Азурегос/Азшара
+			--["Chill"] = "Холод", --Заклинания/Разное/NPC
 			["Chilled"] = "Окоченение",
 			["Chilling Breath"] = "Студеное дыхание",
 			["Chilling Touch"] = "Леденящее прикосновение",
@@ -1176,10 +1176,10 @@ if GetLocale() == "ruRU" then
 			["Choking Spores"] = "Удушающие споры",
 			["Choose Camp Type"] = "Выбор типа лагеря",
 			["Choose Power"] = "Выбор мощи",
-			["Choose Random Powers"] = "Выберите случайную силу",
+			--["Choose Random Powers"] = "Выберите случайную силу",
 			["Choose Random Powers"] = "Выбрать случайную силу",
 			["Choose Random Skull Pile"] = "Выбор случайного черепа с кучы",
-			["Choose Random Skull Pile"] = "Остановка у черепов",
+			--["Choose Random Skull Pile"] = "Остановка у черепов",
 			["Christmas Cannon Master Willey"] = "Рождественский мастер-канонир Вилли",
 			["Christmas Darkmaster Gandling"] = "Рождественский темный магистр Гандлинг",
 			["Christmas Emperor Dagran Thaurissan"] = "Рождественский император Дагран Тауриссан",
@@ -1228,8 +1228,8 @@ if GetLocale() == "ruRU" then
 			["Clearcasting"] = "Ясность мысли",
 			["Cleave Armor"] = "Прорубание брони",
 			["Cleave"] = "Рассекающий удар",
-			["Clenched Pinchers"] = "Жесткий щипок",
-			["Clenched Pinchers"] = "Крепкий захват",
+			["Clenched Pinchers"] = "Жесткий щипок", --Заклинания/Разное/Питомец/Краб
+			--["Clenched Pinchers"] = "Крепкий захват",
 			["Clever Traps"] = "Хитрые ловушки",
 			["Cloak of Fire"] = "Плащ огня",
 			["Cloak of Warding"] = "Плащ стражи",
@@ -1339,8 +1339,8 @@ if GetLocale() == "ruRU" then
 			["Communique, Proxy-to-Relay"] = "Официальное сообщение, помощник - эстафете",
 			["Communique, Relay-to-Camp"] = "Официальное сообщение, эстафета - лагерю",
 			["Communique, Relay-to-Proxy"] = "Официальное сообщение, эстафета - помощнику",
-			["Compact Harvest Reaper Kit"] = "Набор для создания компактного уборочного голема",
-			["Compact Harvest Reaper Kit"] = "Сборный компактный уборочный голем",
+			["Compact Harvest Reaper Kit"] = "Набор для создания компактного уборочного голема", --spell=4019
+			--["Compact Harvest Reaper Kit"] = "Сборный компактный уборочный голем", --spell=3963
 			["Compact Harvest Reaper"] = "Компактный уборочный голем",
 			["Complete Alterac Valley quest"] = "Выполнение задания Альтеракской долины",
 			["Complete Arathi Basin quest, 4 bases"] = "Выполнение задания Низины Арати, 4 баз.",
@@ -1412,8 +1412,8 @@ if GetLocale() == "ruRU" then
 			["Consume Corpse"] = "Пожирание трупа",
 			["Consume Flesh"] = "Пожирание плоти",
 			["Consume Shadows"] = "Поглощение теней",
-			["Consume"] = "Вбирание",
-			["Consume"] = "Поглощение",
+			["Consume"] = "Вбирание", --Заклинания/Разное/Плотоед/Руины Ан'Киража
+			--["Consume"] = "Поглощение", --Заклинания/Разное
 			["Consuming Rage"] = "Всепоглощающая ярость",
 			["Consuming Shadows"] = "Поглощающие тени",
 			["Consumption"] = "Увядание",
@@ -1551,8 +1551,8 @@ if GetLocale() == "ruRU" then
 			["Cowering Roar"] = "Пугающий рык",
 			["Coyote Steak"] = "Стейк из койота",
 			["Cozy Fire"] = "Уют очага",
-			["Crab Cake"] = "Пирожек с мясом краба",
-			["Crab Cake"] = "Пирожок с мясом краба",
+			["Crab Cake"] = "Пирожек с мясом краба", --
+			["Crab Cake"] = "Пирожок с мясом краба", --
 			["Cracking Stone"] = "Треснувший камень",
 			["Crafted Heavy Shot"] = "Тяжелый искусно изготовленный патрон",
 			["Crafted Light Shot"] = "Легкий искусно изготовленный патрон",
@@ -1656,8 +1656,8 @@ if GetLocale() == "ruRU" then
 			["Create Mallet of Zul'Farrak"] = "Создание молота Зул'Фаррака",
 			["Create Mark of the Dawn"] = "Создание печати Рассвета",
 			["Create Minion Trap: Ghost/Ghoul"] = "Создание ловушки прислужника: призрак/вурдалак",
-			["Create Minion Trap: Ghost/Skeleton"] = "Создание ловушки прислужника: призрак/скелет",
-			["Create Minion Trap: Ghoul/Skeleton"] = "Создание ловушки прислужника: вурдалак/скелет",
+			["Create Minion Trap: Ghost/Skeleton"] = "Создание ловушки прислужника: призрак/скелет", --Заклинания/Разное/Иконка/classic_temp
+			["Create Minion Trap: Ghoul/Skeleton"] = "Создание ловушки прислужника: вурдалак/скелет", --Заклинания/Разное/Иконка/classic_temp
 			["Create Mistletoe"] = "Создание омелы",
 			["Create Night Dragon's Breath"] = "Создание Ночного дыхание дракона",
 			["Create Nimboya's Laden Pike"] = "Создание пики с тролльими черепами",
@@ -1959,8 +1959,8 @@ if GetLocale() == "ruRU" then
 			["Dark Iron Taskmaster Death"] = "Смерть надсмотрщика из клана Черного Железа",
 			["Dark Leather Belt"] = "Темный кожаный пояс",
 			["Dark Leather Boots"] = "Темные кожаные сапоги",
-			["Dark Leather Cloak"] = "Темный кожаный плащ",
-			["Dark Leather Cloak"] = "Тисненый кожаный плащ",
+			["Dark Leather Cloak"] = "Темный кожаный плащ", -- Заклинания/Профессии/Кожевничество ур.П.22
+			["Dark Leather Cloak"] = "Тисненый кожаный плащ", -- Заклинания/Профессии/Кожевничество ур.П.8
 			["Dark Leather Gloves"] = "Темные кожаные перчатки",
 			["Dark Leather Pants"] = "Темные кожаные штаны",
 			["Dark Leather Shoulders"] = "Темные кожаные наплечники",
@@ -1968,8 +1968,8 @@ if GetLocale() == "ruRU" then
 			["Dark Mending"] = "Исцеление тьмой",
 			["Dark Offering"] = "Темное приношение",
 			["Dark Pact"] = "Темный союз",
-			["Dark Plague"] = "Темная чума",
-			["Dark Plague"] = "Черный мор",
+			--["Dark Plague"] = "Темная чума", --Заклинания/Разное/NPC
+			["Dark Plague"] = "Черный мор", --Заклинания/Разное/NPC
 			["Dark Restore"] = "Темное восстановление",
 			["Dark Ritual II"] = "Темный ритуал II",
 			["Dark Ritual"] = "Темный ритуал",
@@ -2000,8 +2000,8 @@ if GetLocale() == "ruRU" then
 			["Dawn's Edge"] = "Лезвие Рассвета",
 			["Dawn's Gambit"] = "Рассветный гамбит",
 			["Dawnbringer Shoulders"] = "Наплечники Вестника Рассвета",
-			["Dazed"] = "Головокружение",
-			["Dazed"] = "Замедление",
+			--["Dazed"] = "Головокружение", --Боссы
+			["Dazed"] = "Замедление", --Босс/Маг
 			["Dazzling Mithril Rapier"] = "Ослепительная мифриловая рапира",
 			["Deaden Magic"] = "Магическое заземление",
 			["Deadliness"] = "Убойная сила",
@@ -2096,7 +2096,6 @@ if GetLocale() == "ruRU" then
 			["Delete Me"] = "Удали меня",
 			["Delicate Arcanite Converter"] = "Сверхточный арканитовый преобразователь",
 			["Delusions of Jin'do"] = "Иллюзии Джин'до",
-			["Demon Armor"] = "Демонический доспе",
 			["Demon Armor"] = "Демонический доспех",
 			["Demon Breath"] = "Дыхание демона",
 			["Demon Forged Breastplate"] = "Выкованная демоном кираса",
@@ -2189,11 +2188,11 @@ if GetLocale() == "ruRU" then
 			["Detect Demon"] = "Обнаружение демона",
 			["Detect Elven Gems"] = "Обнаружение эльфийских самоцветов",
 			["Detect Gahz'ridian"] = "Обнаружение газ'риллия",
-			["Detect Greater Invisibility"] = "Обнаружение большей невидимости",
-			["Detect Greater Invisibility"] = "Обнаружение большой невидимости",
+			--["Detect Greater Invisibility"] = "Обнаружение большей невидимости", --spell=16882
+			["Detect Greater Invisibility"] = "Обнаружение большой невидимости", --spell=11743/Чернокнижник
 			["Detect Invisibility"] = "Обнаружение невидимости",
-			["Detect Lesser Invisibility"] = "Обнаружение простой невидимости",
-			["Detect Lesser Invisibility"] = "Обнаружения простой невидимости",
+			["Detect Lesser Invisibility"] = "Обнаружение простой невидимости", --spell=132/Чернокнижник
+			--["Detect Lesser Invisibility"] = "Обнаружения простой невидимости", --spell=6512/Эликсир обнаружения простой невидимости
 			["Detect Magic"] = "Распознавание магии",
 			["Detect Traps"] = "Обнаружение ловушек",
 			["Detect Undead"] = "Обнаружение нежити",
@@ -2319,8 +2318,8 @@ if GetLocale() == "ruRU" then
 			["Dizzy"] = "Одурманивание",
 			["Dmg Shield"] = "Измеримый щит",
 			["Dmg Shield2"] = "Измеримый щит 2",
-			["Dodge Mastery"] = "Владение уклонением",
-			["Dodge Mastery"] = "Мастерство уклонения",
+			["Dodge Mastery"] = "Владение уклонением", --spell=1114
+			["Dodge Mastery"] = "Мастерство уклонения", --spell=4751
 			["Dodge!"] = "Уклонение!",
 			["Dodge"] = "Уклонение",
 			["Dominate Mind"] = "Господство над разумом",
@@ -2493,8 +2492,8 @@ if GetLocale() == "ruRU" then
 			["Elemental Shield"] = "Щит стихий",
 			["Elemental Shields"] = "Щит стихий",
 			["Elemental Slayer (OLD)"] = "Истребитель элементалей (OLD)",
-			["Elemental Slayer"] = "Истребитель элементалей",
-			["Elemental Slayer"] = "Убийство элементалей",
+			["Elemental Slayer"] = "Истребитель элементалей", --spell=4678
+			--["Elemental Slayer"] = "Убийство элементалей", --spell=24991
 			["Elemental Slaying 36"] = "Убийство элементалей 36",
 			["Elemental Spawn-in"] = "Появление элементалей",
 			["Elemental Spirit Invisibility"] = "Невидимость Элементалей",
@@ -2660,10 +2659,10 @@ if GetLocale() == "ruRU" then
 			["Enchant Cloak - Lesser Shadow Resistance"] = "Чары для плаща - сопротивление темной магии I",
 			["Enchant Cloak - Minor Agility"] = "Чары для плаща - ловкость I",
 			["Enchant Cloak - Minor Protection"] = "Чары для плаща - броня I",
-			["Enchant Cloak - Minor Resistance"] = "Зачарование плаща - малое сопротивление",
-			["Enchant Cloak - Minor Resistance"] = "Чары для плаща - сопротивление I",
-			["Enchant Cloak - Resistance"] = "Чары для плаща - сопротивление II",
-			["Enchant Cloak - Resistance"] = "Чары для плаща - сопротивление",
+			["Enchant Cloak - Minor Resistance"] = "Зачарование плаща - малое сопротивление", --
+			["Enchant Cloak - Minor Resistance"] = "Чары для плаща - сопротивление I", --
+			["Enchant Cloak - Resistance"] = "Чары для плаща - сопротивление II", --
+			["Enchant Cloak - Resistance"] = "Чары для плаща - сопротивление", --
 			["Enchant Cloak - Stealth"] = "Чары для плаща - незаметность",
 			["Enchant Cloak - Subtlety"] = "Чары для плаща - скрытность",
 			["Enchant Cloak - Superior Defense"] = "Чары для плаща - защита III",
@@ -2835,7 +2834,7 @@ if GetLocale() == "ruRU" then
 			["Explode Orb Effect"] = "Эффект взрывчатого шара",
 			["Explode the Spice"] = "Перечный взрыв",
 			["Explode"] = "Взрыв",
-			["Explode"] = "Взрывание",
+			--["Explode"] = "Взрывание", --Ан'Кираж/Руины Ан'Киража
 			["Exploding Cadaver"] = "Взрывающийся кадавр",
 			["Exploding Heart"] = "Взрывающееся сердце",
 			["Exploding Shot"] = "Взрывной выстрел",
@@ -2866,8 +2865,8 @@ if GetLocale() == "ruRU" then
 			["Eye of Yesmur (PT)"] = "Глаз Йесмура (PT)",
 			["Eye of the Storm"] = "Око шторма",
 			["Eyes of the Beast"] = "Звериный глаз",
-			["Ez-Thro Dynamite Backfire"] = 'Выхлоп от динамита "Pro-100-брос"',
-			["Ez-Thro Dynamite Backfire"] = 'Незапланированный взрыв динамита "Pro-100-брос"',
+			["Ez-Thro Dynamite Backfire"] = 'Выхлоп от динамита "Pro-100-брос"', --
+			["Ez-Thro Dynamite Backfire"] = 'Незапланированный взрыв динамита "Pro-100-брос"', --
 			["Ez-Thro Dynamite"] = 'Динамит "Pro-100-брос"',
 			["FIRESTAFF (DND)"] = "Огненный посох (DND)",
 			["Fade Out"] = "Исчезновение",
@@ -3028,8 +3027,8 @@ if GetLocale() == "ruRU" then
 			["Fire Nova Visual"] = "Кольцо огня - визуальное",
 			["Fire Nova"] = "Кольцо огня",
 			["Fire Oil"] = "Зажигательное масло",
-			--["Fire Power"] = "Огненная мощь",
-			["Fire Power"] = "Сила огня",
+			--["Fire Power"] = "Огненная мощь", --spell=5835
+			["Fire Power"] = "Сила огня", --Эликсир огневой мощи//Таланты/Маг
 			["Fire Protection Potion"] = "Зелье защиты от огня",
 			["Fire Protection"] = "Огненная защита",
 			["Fire Reflector"] = "Отражатель пламени",
@@ -3046,8 +3045,8 @@ if GetLocale() == "ruRU" then
 			["Fire Shield IV"] = "Огненный щит IV",
 			["Fire Shield"] = "Огненный щит",
 			["Fire Shot"] = "Залп огня",
-			["Fire Specialization"] = "Специализация на магии огня",
-			["Fire Specialization"] = "Специализация на огне",
+			["Fire Specialization"] = "Специализация на магии огня", --spell=4846
+			["Fire Specialization"] = "Специализация на огне", --spell=5847
 			["Fire Storm"] = "Огненная буря",
 			["Fire Strike"] = "Огненный удар",
 			["Fire V"] = "Огонь V",
@@ -3075,8 +3074,8 @@ if GetLocale() == "ruRU" then
 			["Firestaff"] = "Огненный посох",
 			["Firestone Attack"] = "Атака камнем огня",
 			["Firestone Effect"] = "Эффект камня огня",
-			["Firestone Passive"] = "Камень огня - постоянное действие",
-			["Firestone Passive"] = "Огневик - постоянное действие",
+			["Firestone Passive"] = "Камень огня - постоянное действие", --spell=17945/Камень огня
+			["Firestone Passive"] = "Огневик - постоянное действие", --spell=758/Малый камень огня
 			["Firesworn Eruption Trigger"] = "Активация извержения огнекамня",
 			["Firework Cluster Launcher"] = "Пусковая установка для связок фейерверков",
 			["Firework Effect, Lunar Festival Minion"] = "Эффект фейерверка, прислужник Лунного фестиваля",
@@ -3096,8 +3095,8 @@ if GetLocale() == "ruRU" then
 			["Fishing"] = "Рыбная ловля",
 			["Fishliver Oil"] = "Рыбий жир",
 			["Fist Weapon Specialization"] = "Специализация на кистевом оружии",
-			["Fist Weapons"] = "Кистевые оружия",
-			["Fist Weapons"] = "Кулачное оружие",
+			["Fist Weapons"] = "Кистевые оружия", --spell=15992//Заклинания/Разное
+			--["Fist Weapons"] = "Кулачное оружие", --spell=15590//Умения/Оружие
 			["Fist of Ragnaros"] = "Кулак Рагнароса",
 			["Fist of Shahram"] = "Кулак Шахрама",
 			["Fist of Stone"] = "Каменный кулак",
@@ -3141,8 +3140,8 @@ if GetLocale() == "ruRU" then
 			["Flamespit"] = "Огненный плевок",
 			["Flamestrike"] = "Огненный столб",
 			["Flamethrower"] = "Огнемет",
-			["Flametongue Attack"] = "Атака Огненного языка",
-			["Flametongue Attack"] = "Атака языка пламени",
+			["Flametongue Attack"] = "Атака Огненного языка", --spell=16368/Шаман
+			["Flametongue Attack"] = "Атака языка пламени", --spell=10444/Шаман
 			["Flametongue Totem Effect"] = "Эффект Тотема языка пламени",
 			["Flametongue Totem Passive"] = "Тотем языка пламени - постоянное действие",
 			["Flametongue Totem Proc"] = "Тотем языка пламени - срабатывание",
@@ -3357,9 +3356,9 @@ if GetLocale() == "ruRU" then
 			["Frenzied Regeneration"] = "Неистовое восстановление",
 			["Frenzy Aura"] = "Аура безумия",
 			["Frenzy Effect"] = "Эффект бешенства",
-			--["Frenzy"] = "Берсерк",
-			--["Frenzy"] = "Бешенство",
-			["Frenzy"] = "Исступление",
+			--["Frenzy"] = "Берсерк", --spell=23505/racial_troll_berserk
+			--["Frenzy"] = "Бешенство", --spell=3019/Боссы
+			["Frenzy"] = "Исступление", --spell=1640/Боссы
 			["Friendly Nukes"] = "Дружественные дистанционные атаки",
 			["Frightalon"] = "Жуткокоготь",
 			["Frightening Shriek"] = "Пугающий визг",
@@ -3372,15 +3371,15 @@ if GetLocale() == "ruRU" then
 			["Frost Breath"] = "Дыхание льда",
 			["Frost Burn"] = "Ледяной ожог",
 			["Frost Channeling"] = "Поток льда",
-			["Frost Focus"] = "Ледяной фокус",
-			["Frost Focus"] = "Средоточие Льда",
+			["Frost Focus"] = "Ледяной фокус", --
+			["Frost Focus"] = "Средоточие Льда", --
 			["Frost Hold"] = "Оледенение",
 			["Frost Leather Cloak"] = "Ледяной кожаный плащ",
 			["Frost Mantle of the Dawn"] = "Ледяная мантия Рассвета",
 			["Frost Nova"] = "Кольцо льда",
 			["Frost Oil"] = "Масло льда",
-			["Frost Power"] = "Ледяная мощь",
-			["Frost Power"] = "Мощь Льда",
+			["Frost Power"] = "Ледяная мощь", --spell=5866
+			--["Frost Power"] = "Мощь Льда", --spell=21920/inv_potion_03/Эликсир Силы льда
 			["Frost Protection "] = "Защита от льда",
 			["Frost Protection Potion"] = "Зелье защиты от магии льда",
 			["Frost Protection"] = "Защита от льда",
@@ -3397,8 +3396,8 @@ if GetLocale() == "ruRU" then
 			["Frost Tiger Blade"] = "Клинок ледяного тигра",
 			["Frost Tomb"] = "Ледяная могила",
 			["Frost Trap Aura"] = "Аура ледяной ловушки",
-			["Frost Trap"] = "Замораживающая ловушка",
-			["Frost Trap"] = "Ледяная ловушка",
+			--["Frost Trap"] = "Замораживающая ловушка", --spell=14310
+			["Frost Trap"] = "Ледяная ловушка", --spell=13809
 			["Frost Visual State"] = "Лед - визуальное состояние",
 			["Frost Vulnerable"] = "Уязвимость к магии льда",
 			["Frost Ward"] = "Защита от магии льда",
@@ -3463,8 +3462,8 @@ if GetLocale() == "ruRU" then
 			["Gadgetzan Transporter Failure"] = "Поломка прибамбасского транспортера",
 			["Gadgetzan Transporter"] = "Прибамбасский транспортер",
 			["Gaea's Embrace"] = "Облачение Геи",
-			["Gahz'ranka Slam"] = "Хлопушка Газ'ранки",
-			["Gahz'rilla Slam"] = "Хлопушка Газ'риллы",
+			["Gahz'ranka Slam"] = "Хлопушка Газ'ранки", --
+			["Gahz'rilla Slam"] = "Хлопушка Газ'риллы", --
 			["Gain Whirlwind Weapon"] = "Добыть Оружие Вихря",
 			["Gallop (TEST)"] = "Галоп (TEST)",
 			["Gammerita Turtle Camera"] = "Черепаховая фотокамера Гаммериты",
@@ -3601,15 +3600,15 @@ if GetLocale() == "ruRU" then
 			["Goblin Engineering"] = "Гоблинское инженерное дело",
 			["Goblin Jumper Cables XL"] = "Гоблинский кабельный макси-дефибриллятор",
 			["Goblin Jumper Cables"] = "Гоблинский кабельный дефибриллятор",
-			["Goblin Land Mine"] = "Гоблинская мина",
-			["Goblin Land Mine"] = "Гоблинская наземная мина",
+			--["Goblin Land Mine"] = "Гоблинская мина", --Зул'Фаррак/Вигиль Фитиль
+			["Goblin Land Mine"] = "Гоблинская наземная мина", --spell=3968/Заклинания/Профессии/Инженерное дело
 			["Goblin Mining Helmet"] = "Шахтерская гоблинская каска",
 			["Goblin Mortar"] = "Гоблинская мортира",
 			["Goblin Racer Cheer"] = "Гоблинский болельщик на гонках",
 			["Goblin Radio"] = "Гоблинское радио",
 			["Goblin Rocket Boots"] = "Гоблинские реактивные сапоги",
-			["Goblin Rocket Fuel Recipe"] = "Гоблинское ракетное топливо - рецепт",
-			["Goblin Rocket Fuel Recipe"] = "Гоблинское ракетное топливо",
+			--["Goblin Rocket Fuel Recipe"] = "Гоблинское ракетное топливо - рецепт", --spell=12715
+			["Goblin Rocket Fuel Recipe"] = "Гоблинское ракетное топливо", --spell=11456
 			["Goblin Rocket Fuel"] = "Гоблинское ракетное топливо",
 			["Goblin Rocket Helmet"] = "Гоблинский реактивный шлем",
 			["Goblin Sapper Charge"] = "Гоблинская мина",
@@ -3627,8 +3626,8 @@ if GetLocale() == "ruRU" then
 			["Golden Scale Shoulders"] = "Золотые чешуйчатые наплечники",
 			["Golden Skeleton Key"] = "Золотая отмычка",
 			["Goldshire Portal"] = "Портал Златоземья",
-			["Goldthorn Tea"] = "Чай Златошипа",
-			["Goldthorn Tea"] = "Чай из златошипа",
+			["Goldthorn Tea"] = "Чай Златошипа", --spell=13029/inv_drink_15
+			--["Goldthorn Tea"] = "Чай из златошипа", --spell=13028/inv_drink_15
 			["Golemagg's Trust"] = "Доверие Големагга",
 			["Gong Zul'Farrak Gong"] = "Гонг из Зул'Фаррака - гонг",
 			["Gong"] = "Гонг",
@@ -3636,8 +3635,8 @@ if GetLocale() == "ruRU" then
 			["Gordok Green Grog"] = "Зеленый грог Гордока",
 			["Gordok Ogre Suit"] = "Броня огров Гордока",
 			["Gordunni Trap"] = "Ловушка Гордунни",
-			["Gore"] = "Кровавая атака",
-			["Gore"] = "Кровь",
+			["Gore"] = "Кровавая атака", --spell=5150/spell=4733/Питомец/Вепрь
+			--["Gore"] = "Кровь", --spell=4102/Дебаф?
 			["Goretooth's Orders"] = "Поручение жуткозуба",
 			["Goretusk Liver Pie"] = "Пирожок из печени кровоклыка",
 			["Gorishi Egg"] = "Кокон улья Гориши",
@@ -3761,8 +3760,8 @@ if GetLocale() == "ruRU" then
 			["Green Woolen Vest"] = "Зеленый шерстяной жилет",
 			["Grilled Squid"] = "Кальмар-гриль",
 			["Grim Reach"] = "Предел мрака",
-			["Grip of Command"] = "Командная хватка",
-			["Grip of Command"] = "Хватка командования",
+			["Grip of Command"] = "Командная хватка", --spell=21130
+			["Grip of Command"] = "Хватка командования", --spell=21172
 			["Grom's Forsaken Tribute"] = "Подношения Грому от нежити",
 			["Grom's Orc Tribute"] = "Подношения Грому от орков",
 			["Grom's Tauren Tribute"] = "Подношения Грому от тауренов",
@@ -3777,8 +3776,8 @@ if GetLocale() == "ruRU" then
 			["Grounding Totem"] = "Тотем заземления",
 			["Group Astral Recall"] = "Груповое астральное возвращение",
 			["Grovel"] = "Ползание",
-			["Grow"] = "Расти!",
-			["Grow"] = "Рык",
+			--["Grow"] = "Расти!", --Наксрамас/NPC
+			["Grow"] = "Рык", --spell=14923/Способности/Охотник/Воспитание питомца
 			["Growing Flames"] = "Растущее пламя",
 			["Growl of Fortitude Proc"] = "Рык стойкости - срабатывание",
 			["Growl of Fortitude"] = "Рык стойкости",
@@ -3906,24 +3905,24 @@ if GetLocale() == "ruRU" then
 			["Healing Stream Totem"] = "Тотем исцеляющего потока",
 			["Healing Stream"] = "Исцеляющий поток",
 			["Healing Tongue II"] = "Исцеляющая речь II",
-			["Healing Tongue"] = "Исцеляющая речь",
-			["Healing Tongue"] = "Целебная слюна",
+			["Healing Tongue"] = "Исцеляющая речь", --spell=4209/spell=8595
+			["Healing Tongue"] = "Целебная слюна", --spell=6031/spell=4807/Охотник/Долгоног
 			["Healing Touch (TEST)"] = "Исцеляющее прикосновение (ИСПЫТАНИЕ)",
 			["Healing Touch Refund"] = "Целительное прикосновение - восстановление",
 			["Healing Touch"] = "Целительное прикосновение",
 			["Healing Ward IV Passive"] = "Дух-целитель IV (постоянно)",
 			["Healing Ward Passive"] = "Дух-целитель (постоянно)",
-			["Healing Ward V Passive"] = "Дух-целитель V (постоянно)",
-			["Healing Ward V Passive"] = "Исцеляющий древень V (постоянно)",
-			["Healing Ward"] = "Дух-целитель",
-			["Healing Ward"] = "Исцеляющий древень",
+			["Healing Ward V Passive"] = "Дух-целитель V (постоянно)", --spell=497
+			["Healing Ward V Passive"] = "Исцеляющий древень V (постоянно)", --spell=11901
+			["Healing Ward"] = "Дух-целитель", --4971/Лабиринты Иглошкурых/Исцеляющий идол V
+			["Healing Ward"] = "Исцеляющий древень", --11899/Зул'Фаррак/Большой исцеляющий идол
 			["Healing Wave of Antu'sul"] = "Исцеляющая волна Антусула",
 			["Healing Wave"] = "Волна исцеления",
 			["Healing Way"] = "Путь исцеления",
 			["Healing of the Ages"] = "Исцеление Эпох",
 			["Health Funnel"] = "Канал здоровья",
-			["Health II"] = "Здоровье II",
-			["Health II"] = "Эликсир Стойкости",
+			["Health II"] = "Здоровье II", --spell=16884
+			["Health II"] = "Эликсир Стойкости", --spell=3593
 			["Health Regeneration"] = "Восполнение здоровья",
 			["Health"] = "Здоровье",
 			["Healthstone"] = "Камень здоровья",
@@ -4146,8 +4145,8 @@ if GetLocale() == "ruRU" then
 			["Hunter Giant Stalker"] = "Великанский охотник",
 			["Hunter's Mark"] = "Метка охотника",
 			["Hunter's Will"] = "Воля охотника",
-			["Hurricane"] = "Гроза",
-			["Hurricane"] = "Ураган",
+			["Hurricane"] = "Гроза", --Шаман/Гроза//Способности/Друид/Баланс
+			--["Hurricane"] = "Ураган", --spell=24922
 			["Hydrojet"] = "Реактивная струя",
 			["Hyena Sample"] = "Экземпляр гиены",
 			["Hyper Coward"] = "Гипер трус",
@@ -4191,8 +4190,8 @@ if GetLocale() == "ruRU" then
 			["Idom Rool Camera Shake"] = "Комната идола - сотрясение камеры",
 			["Ignite Flesh"] = "Сожжение плоти",
 			["Ignite Mana"] = "Воспламенение маны",
-			["Ignite"] = "Возгорание",
-			["Ignite"] = "Воспламенение",
+			--["Ignite"] = "Возгорание", --spell=3261/NPC --spell=28682/Маг
+			["Ignite"] = "Воспламенение", --spell=11119/Таланты/Маг
 			["Igniting Kroshius"] = "Воспламенение Крошиуса",
 			["Ilkrud's Guardians"] = "Стражи Илкруда",
 			["Illidan's Fury"] = "Неистовство Иллидана",
@@ -4280,8 +4279,8 @@ if GetLocale() == "ruRU" then
 			["Improved Concentration Aura"] = "Улучшенная аура сосредоточенности",
 			["Improved Concussive Shot"] = "Улучшенный контузящий выстрел",
 			["Improved Cone of Cold"] = "Улучшенный конус холода",
-			["Improved Corruption"] = "Улучшенная порча",
-			["Improved Corruption"] = "Усиленная порча",
+			["Improved Corruption"] = "Улучшенная порча", --spell=17810/Таланты/Чернокнижник
+			--["Improved Corruption"] = "Усиленная порча", --spell=24486/Бафф сета ЗГ Чернокнижника
 			["Improved Counterspell"] = "Улучшенная Антимагия",
 			["Improved Curse of Agony"] = "Улучшенное проклятие агонии",
 			["Improved Curse of Exhaustion"] = "Улучшенное проклятие изнеможения",
@@ -5005,9 +5004,9 @@ if GetLocale() == "ruRU" then
 			["Increased Critical Spell Shadow"] = "Увеличение критического эффекта Тьмы",
 			["Increased Critical Spell"] = "Увеличение рейтинга критического эффекта заклинаний",
 			["Increased Crossbow"] = "Усиленный арбалет",
-			["Increased Dagger"] = "Улучшение владения кинжалами",
-			["Increased Dagger"] = "Усиленный кинжал",
-			["Increased Dagger"] = "Усиленный укинжал",
+			--["Increased Dagger"] = "Улучшение владения кинжалами", --Бафф сета "Кожаные доспехи Братства Справедливости"
+			--["Increased Dagger"] = "Усиленный кинжал", --spell=15717/Бонус предметов
+			["Increased Dagger"] = "Усиленный укинжал", --spell=14051
 			["Increased Damage - Beast 02"] = "Повышение урона - зверь 2",
 			["Increased Damage - Beast 04"] = "Повышение урона - зверь 4",
 			["Increased Damage - Beast 06"] = "Повышение урона - зверь 6",
@@ -5116,8 +5115,8 @@ if GetLocale() == "ruRU" then
 			["Increased Frost Resist 44"] = "Повышенное сопротивление магии льда 44",
 			["Increased Frost Resist 45"] = "Повышенное сопротивление магии льда 45",
 			["Increased Frost Resist 46"] = "Повышенное сопротивление магии льда 46",
-			["Increased Gun"] = "Улучшение владения огнестрельным оружием",
-			["Increased Gun"] = "Усиленное ружье",
+			["Increased Gun"] = "Улучшение владения огнестрельным оружием", --spell=7536
+			--["Increased Gun"] = "Усиленное ружье", --spell=27743 Бонус предмета
 			["Increased Hit Chance 1"] = "Увеличение меткости 1",
 			["Increased Hit Chance 10"] = "Увеличение меткости 10",
 			["Increased Hit Chance 2"] = "Увеличение меткости 2",
@@ -5453,9 +5452,9 @@ if GetLocale() == "ruRU" then
 			["Inferno Effect"] = "Эффект инфернала",
 			["Inferno Gloves"] = "Инфернальные перчатки",
 			["Inferno Shell"] = "Инфернальный снаряд",
-			["Inferno"] = "Инфернал",
-			["Inferno"] = "Инферно",
-			["Inferno"] = "Преисподняя",
+			["Inferno"] = "Инфернал", --spell=1122/Способности/Чернокнижник/Демонология
+			--["Inferno"] = "Инферно", --20799
+			--["Inferno"] = "Преисподняя", --spell=19695/Барон Геддон/Босс/Огненные Недра
 			["Infinite Wisdom Shadow Word: Pain Bonus"] = "Беспредельная мудрость, слово Тьмы: Боль - доп. эффект",
 			["Initialize Image"] = "Инициализация изображения",
 			["Initialize Images"] = "Инициализация изображения",
@@ -5499,8 +5498,8 @@ if GetLocale() == "ruRU" then
 			["Intense Pain"] = "Сильная боль",
 			["Intensity"] = "Напряжение",
 			["Intercept Cooldown Reduction"] = "Снижение времени до восстановления Перехвата",
-			["Intercept Stun"] = "Перехват - оглушение",
-			["Intercept Stun"] = "Перехват оглушение.",
+			["Intercept Stun"] = "Перехват - оглушение", --spell=20615/Телдрен/Глубины Черной горы
+			--["Intercept Stun"] = "Перехват оглушение.", --spell=20253/Телдрен/Глубины Черной горы
 			["Intercept"] = "Перехват",
 			["Interrupt (PT)"] = "Прерывание завершения работы (PT)",
 			["Intimidating Growl"] = "Устрашающий рык",
@@ -5657,8 +5656,8 @@ if GetLocale() == "ruRU" then
 			["Knockback 500"] = "Отпор 500",
 			["Knockback"] = "Отпор",
 			["Knockdown /Stun (TEST)"] = "Нокдаун/Оглушение (Тест)",
-			["Knockdown Proc"] = "Нокдаун  - дополнительный эффект",
-			["Knockdown Proc"] = "Нокдаун",
+			--["Knockdown Proc"] = "Нокдаун  - дополнительный эффект", --spell=6961
+			["Knockdown Proc"] = "Нокдаун", --spell=5164/Вем/Босс/Ан'Кираж
 			["Knockdown"] = "Нокдаун",
 			["Knockout"] = "Нокаут",
 			["Kodo Bones Trap"] = "Кости кодо ловушка",
@@ -5833,8 +5832,8 @@ if GetLocale() == "ruRU" then
 			["Lightning Cloud"] = "Грозовая туча",
 			["Lightning Hide"] = "Бурешкура",
 			["Lightning Mastery"] = "Покорение молнии",
-			["Lightning Reflexes"] = "Молниеносная реакция",
-			["Lightning Reflexes"] = "Молниеносные рефлексы",
+			["Lightning Reflexes"] = "Молниеносная реакция", --spell=5682
+			--["Lightning Reflexes"] = "Молниеносные рефлексы", --spell=19168/Заклинания/Таланты/Охотник
 			["Lightning Shield"] = "Щит молний",
 			["Lightning Shock"] = "Поражение громом",
 			["Lightning Storm"] = "Гроза",
@@ -5933,8 +5932,7 @@ if GetLocale() == "ruRU" then
 			["Magic Missile (TEST)"] = "Магический снаряд (ТЕСТ)",
 			["Magic Potion"] = "Магическое зелье",
 			["Magic Reflection"] = "Отражение магии",
-			["Magic Resist"] = "Сопростивление магии",
-			["Magic Resist"] = "Сопротивление магии",
+			["Magic Resist"] = "Сопротивление магии", --spell=4582
 			["Magic Resistance Potion"] = "Зелье защиты от магии",
 			["Magic Resistance"] = "Сопротивление магии",
 			["Magic Stone Helmet"] = "Полный шлем Волшебного Камня",
@@ -5998,9 +5996,9 @@ if GetLocale() == "ruRU" then
 			["Mana Tide"] = "Прилив маны",
 			["Mana"] = "Мана",
 			["Manastorm"] = "Буря маны",
-			["Mangle"] = "Калечение",
-			["Mangle"] = "Нанесение увечья",
-			["Mangle"] = "Увечье",
+			--["Mangle"] = "Калечение", --spell=22570/Друид
+			["Mangle"] = "Нанесение увечья", --spell=19820/Друид
+			--["Mangle"] = "Увечье", --spell=89/Чернокнижник//spell=18381/Воин
 			["Manifest Spirit"] = "Явление духа",
 			["Manifestation Cleansing"] = "Очищение явления",
 			["Manifestation Ends"] = "Окончание явления духа",
@@ -6056,23 +6054,23 @@ if GetLocale() == "ruRU" then
 			["Masterwork Target Dummy Effect"] = "Манекен-мишень искусной работы - эффект",
 			["Masterwork Target Dummy Passive"] = "Манекен-мишень искусной работы - бездействие",
 			["Masterwork Target Dummy"] = "Манекен-мишень искусной работы",
-			["Maul"] = "Кувалда",
-			["Maul"] = "Размах",
-			["Maul"] = "Трепка",
+			--["Maul"] = "Кувалда", --spell=7092/Друид
+			--["Maul"] = "Размах", --spell=9754/Друид
+			["Maul"] = "Трепка", --spell=6807/Друид
 			["Maypole Buff"] = "Майский шест - положительный эффект",
 			["Maypole"] = "Майский шест",
 			["Mebok Smart Drink"] = "Умный напиток Мебока",
 			["Mechanical Dragonling"] = "Механический дракончик",
 			["Mechanical Patch Kit"] = "Автоматический заплатный набор",
 			["Mechanical Repair Kit"] = "Автоматический ремонтный набор",
-			["Mechanical Squirrel"] = "Коробка с механической белкой",
-			["Mechanical Squirrel"] = "Механическая белка",
+			--["Mechanical Squirrel"] = "Коробка с механической белкой", --spell=3928
+			["Mechanical Squirrel"] = "Механическая белка", --spell=4055
 			["Mechano-Frostwalker Revert Passive"] = "Механический-ледоступ, возврат - постоянный эффект",
 			["Mechano-Frostwalker Revert"] = "Механический-ледоступ, возврат",
 			["Mechanostrider Piloting"] = "Водитель механодолгонога",
 			["Meditation"] = "Медитация",
-			["Medium Armor Kit"] = "Комплект средней брони",
-			["Medium Armor Kit"] = "Накладки из жесткой кожи",
+			--["Medium Armor Kit"] = "Комплект средней брони", --spell=2884
+			["Medium Armor Kit"] = "Накладки из жесткой кожи", --spell=2165
 			["Medium Leather"] = "Жесткая кожа",
 			["Megavolt"] = "Мегавольт",
 			["Melee Finesse"] = "Ловкость ближнего боя",
@@ -6140,7 +6138,6 @@ if GetLocale() == "ruRU" then
 			["Mind Vision"] = "Внутреннее зрение",
 			["Mind-numbing Poison II"] = "Дурманящий яд II",
 			["Mind-numbing Poison III"] = "Дурманящий яд III",
-			["Mind-numbing Poison"] = "Дурманящий яд ",
 			["Mind-numbing Poison"] = "Дурманящий яд",
 			["Minigun"] = "Миниружье",
 			["Mining"] = "Горное дело",
@@ -6173,8 +6170,8 @@ if GetLocale() == "ruRU" then
 			["Minor Scorpion Venom Effect"] = "Эффект младшего скорпионьего яда",
 			["Minor Scorpion Venom"] = "Легкий яд скорпиона",
 			["Minor Speed"] = "Слабое зелье скорости",
-			["Minor Spirit"] = "Малый дух",
-			["Minor Spirit"] = "Слабое зелье духа",
+			--["Minor Spirit"] = "Малый дух", --spell=7450
+			["Minor Spirit"] = "Слабое зелье духа", --spell=7456
 			["Minor Stamina"] = "Слабое зелье выносливости",
 			["Minor Stats"] = "Небольшое повышение характеристик",
 			["Minor Stealth"] = "Слабое зелье незаметности",
@@ -6313,8 +6310,8 @@ if GetLocale() == "ruRU" then
 			["Nature Resist"] = "Сопротивление силам природы",
 			["Nature Resistance Totem"] = "Тотем защиты от сил природы",
 			["Nature Resistance"] = "Сопротивление силам природы",
-			["Nature Specialization"] = "Специализация на природе",
-			["Nature Specialization"] = "Специализация на силе природы",
+			["Nature Specialization"] = "Специализация на природе", --spell=5824
+			["Nature Specialization"] = "Специализация на силе природы", --spell=4848
 			["Nature Weakness"] = "Природная слабость",
 			["Nature's Ally"] = "Друг природы",
 			["Nature's Blessing"] = "Благословение природы",
@@ -6479,8 +6476,8 @@ if GetLocale() == "ruRU" then
 			["Pagle's Broken Reel"] = "Сломанная бобина Пэгла",
 			["Pagle's Point Cast - Create Mudskunk Lure"] = "Заклинание Стоянки Пэгла - создание наживки на грязнотинника",
 			["Pagle's Point Cast - Create Splash and Quake"] = "Заклинание Стоянки Пэгла - создание блеска и плеска",
-			["Palamino Stallion"] = "Игреневый жеребец",
-			["Palomino Stallion"] = "Игреневый конь",
+			["Palamino Stallion"] = "Игреневый жеребец", --spell=471
+			["Palomino Stallion"] = "Игреневый конь", --spell=16082
 			["Pamela's Doll Trap"] = "Кукла Памелы - ловушка",
 			["Panda"] = "Панда",
 			["Panic"] = "Паника",
@@ -6492,10 +6489,10 @@ if GetLocale() == "ruRU" then
 			["Paranoia"] = "Паранойя",
 			["Parasite"] = "Паразит",
 			["Parasitic Serpent"] = "Паразитирующий змей",
-			["Parry Mastery"] = "Владение паррированием",
-			["Parry Mastery"] = "Мастерство парирования",
-			["Parry!"] = "Отбивай!",
-			["Parry!"] = "Паррирование!",
+			["Parry Mastery"] = "Владение паррированием", --spell=2117
+			["Parry Mastery"] = "Мастерство парирования", --spell=4758
+			["Parry!"] = "Отбивай!", --spell=2850
+			["Parry!"] = "Паррирование!", --spell=2569
 			["Parry"] = "Парирование",
 			["Party Bot Message - DANCE"] = "Автоматическое сообщение группы - ТАНЦЕВАТЬ",
 			["Party Fever Effect"] = "Эффект заразного веселья",
@@ -6825,8 +6822,8 @@ if GetLocale() == "ruRU" then
 			["Peon Sleeping (Stun emote)"] = "Спящий батрак (отображение оглушения)",
 			["Peon Sleeping"] = "Спящий батрак",
 			["Perception"] = "Внимательность",
-			["Perceptive"] = "Воспреимчивость",
-			["Perceptive"] = "Восприимчивость",
+			["Perceptive"] = "Воспреимчивость", --spell=6164
+			["Perceptive"] = "Восприимчивость", --spell=7212
 			["Perfume"] = "Духи",
 			["Periodic Knock Away"] = "Периодическое отбрасывание",
 			["Periodic Mana Burn"] = "Периодическое сожжение маны",
@@ -6866,8 +6863,8 @@ if GetLocale() == "ruRU" then
 			["Pet Fish"] = "Ручная рыбка",
 			["Pet Hardiness"] = "Стойкость питомца",
 			["Pet Recovery"] = "Восстановление питомца",
-			["Pet Resistance"] = "Сопротивляемость питомца",
-			["Pet Resistance"] = "Стойкость питомца",
+			--["Pet Resistance"] = "Сопротивляемость питомца", --spell=6448/Питомец
+			["Pet Resistance"] = "Стойкость питомца", --spell=6280/Охотник
 			["Pet Stone"] = "Ручной камень",
 			["Pet Summoned"] = "Вызванный питомец",
 			["Pet Upgrade (NYI)"] = "Улучшение питомца (NYI)",
@@ -6947,8 +6944,8 @@ if GetLocale() == "ruRU" then
 			["Plague Wave Effect 3"] = "Чумная волна -  эффект 3",
 			["Plague Wave Effect 4"] = "Чумная волна -  эффект 4",
 			["Plague Wave"] = "Чумная волна",
-			["Plague"] = "Мор",
-			["Plague"] = "Чума",
+			["Plague"] = "Мор", --spell=26556/NPC
+			["Plague"] = "Чума", --spell=22997/NPC
 			["Plagueheart"] = "Проклятое сердце",
 			["Plainsrunning"] = "Бег по равнинам",
 			["Plans: Annihilator"] = "Чертеж: аннигилятор",
@@ -7166,8 +7163,8 @@ if GetLocale() == "ruRU" then
 			["Polar Tunic"] = "Снежный мундир",
 			["Polarity Shift"] = "Сдвиг полярности",
 			["Polearm Specialization"] = "Специализация на древковом оружии",
-			["Polearms"] = "Глефы",
-			["Polearms"] = "Древковое оружие",
+			--["Polearms"] = "Глефы", --spell=15991
+			["Polearms"] = "Древковое оружие", --spell=200
 			["Polished Armor"] = "Полированная броня",
 			["Polished Steel Boots"] = "Полированные стальные сапоги",
 			["Polly Eats the E.C.A.C."] = "Полли ест Х.О.Ч.У.",
@@ -7180,11 +7177,11 @@ if GetLocale() == "ruRU" then
 			["Polymorph Heal Effect"] = "Превращение - эффект исцеления",
 			["Polymorph Immunity"] = "Невосприимчивость к превращениям",
 			["Polymorph"] = "Превращение",
-			["Polymorph: Chicken"] = "Полиморф: цыпленок",
-			["Polymorph: Chicken"] = "Превращение: цыпленок",
+			--["Polymorph: Chicken"] = "Полиморф: цыпленок", --
+			["Polymorph: Chicken"] = "Превращение: цыпленок", --
 			["Polymorph: Cow"] = "Превращение: корова",
-			["Polymorph: Pig"] = "Превращение в свинью",
-			["Polymorph: Pig"] = "Превращение: свинья",
+			--["Polymorph: Pig"] = "Превращение в свинью", --
+			["Polymorph: Pig"] = "Превращение: свинья", --
 			["Polymorph: Sheep"] = "Превращение в овцу",
 			["Polymorph: Turtle"] = "Превращение: черепаха",
 			["Polymorphic Explosion"] = "Полиморфный взрыв",
@@ -7228,8 +7225,8 @@ if GetLocale() == "ruRU" then
 			["Power Surge"] = "Волна силы",
 			["Power Word: Fortitude"] = "Слово силы: Стойкость",
 			["Power Word: Shield 500"] = "Слово силы: щит 500",
-			["Power Word: Shield"] = "Слово Cилы: Щит",
-			["Power Word: Shield"] = "Слово силы: Щит",
+			["Power Word: Shield"] = "Слово Cилы: Щит", --
+			["Power Word: Shield"] = "Слово силы: Щит", --
 			["Power of the Guardian"] = "Сила Стража",
 			["Power of the Scourge"] = "Сила Плети",
 			["Powerful Anti-Venom"] = "Мощное противоядие",
@@ -7244,12 +7241,12 @@ if GetLocale() == "ruRU" then
 			["Prayer of Protection II"] = "Молитва защиты II",
 			["Prayer of Protection"] = "Молитва защиты",
 			["Prayer of Shadow Protection"] = "Молитва защиты от темной магии",
-			["Prayer of Spirit"] = "Молитва духа",
-			["Prayer of Spirit"] = "Молитва о духе",
+			["Prayer of Spirit"] = "Молитва духа", --spell=27681/Способности/Жрец/Послушание
+			--["Prayer of Spirit"] = "Молитва о духе", --spell=27845
 			["Precious Transform to Felhound DND"] = "Драгоценное преобразование в Гончих Скверны DND",
 			["Precision"] = "Точность",
-			["Predatory Strikes"] = "Удар хищника",
-			["Predatory Strikes"] = "Удары хищника",
+			--["Predatory Strikes"] = "Удар хищника", --spell=24868/Друид
+			["Predatory Strikes"] = "Удары хищника", --spell=16972/Таланты/Друид
 			["Premeditation"] = "Умысел",
 			["Preparation"] = "Подготовка",
 			["Presence of Death"] = "Явление смерти",
@@ -7299,22 +7296,22 @@ if GetLocale() == "ruRU" then
 			["Punctured Voodoo Doll WAR DND"] = "Исколотая кукла вуду ВОИ DND",
 			["Punctured Voodoo Doll WLK DND"] = "Исколотая кукла вуду ЧКЖ DND",
 			["Pure Water"] = "Чистая вода",
-			["Purge"] = "Развеивание магии",
-			["Purge"] = "Развеяние магии",
+			--["Purge"] = "Развеивание магии", --spell=25756/NPC
+			["Purge"] = "Развеяние магии", --spell=370/Способности/Шаман/Стихии
 			["Purification Potion"] = "Зелье очищения",
-			["Purification"] = "Очищение",
-			["Purification"] = "Чистота",
+			["Purification"] = "Очищение", --spell=4987/Паладин//spell=17550/Зелье очищения
+			--["Purification"] = "Чистота", --spell=16178/Таланты/Шаман
 			["Purify and Place Food"] = "Очистить и положить еду",
-			["Purify"] = "Омовение",
-			["Purity"] = "Чистота",
+			["Purify"] = "Омовение", --spell=1152/Способности/Паладин/Свет
+			--["Purity"] = "Чистота", --spell=16178/Таланты/Шаман
 			["Purple Firework Cluster"] = "Набор пурпурных фейерверков",
 			["Purple Firework"] = "Пурпурный фейерверк",
 			["Purple Hands"] = "Фиолетовые руки",
 			["Purple Mechanostrider"] = "Лиловый механодолгоног",
 			["Purple Skeletal Warhorse"] = "Лиловый боевой конь-скелет",
 			["Pursuit of Justice"] = "Погоня за справедливостью",
-			["Putrid Bile"] = "Гнилая желчь",
-			["Putrid Bite"] = "Гнилостный укус",
+			--["Putrid Bile"] = "Гнилая желчь", --spell=16573/NPC/Восточные Чумные земли
+			["Putrid Bite"] = "Гнилостный укус", --spell=30113/NPC/Наксрамас
 			["Putrid Breath"] = "Гнилостное дыхание",
 			["Putrid Enzyme"] = "Гнилостный фермент",
 			["Putrid Stench"] = "Гнилостная вонь",
@@ -7406,8 +7403,8 @@ if GetLocale() == "ruRU" then
 			["Quick Shot"] = "Скорострельность",
 			["Quick Shots"] = "Скорострельность",
 			["Quick Sidestep"] = "Быстрое уклонение",
-			["Quick Snap"] = "Быстрый выпад",
-			["Quick Snap"] = "Быстрый укус",
+			["Quick Snap"] = "Быстрый выпад", --spell=6007/spell=4748
+			["Quick Snap"] = "Быстрый укус", --spell=4160/spell=4161
 			["Quickdraw Quiver"] = "Колчан быстрой тетивы",
 			["Quickness"] = "Расторопность",
 			["Quiet Suicide (Frost)"] = "Задание Самоубийство (Лед)",
@@ -7774,7 +7771,6 @@ if GetLocale() == "ruRU" then
 			["Rend Calls For Buff"] = "Ренд вызывает для положительного эффекта",
 			["Rend Flesh"] = "Раздирание плоти",
 			["Rend"] = "Кровопускание",
-			--["Renew"] = "Обновление ",
 			["Renew"] = "Обновление",
 			["Repair the Blade of Heroes"] = "Перековка клинка героев",
 			["Repentance"] = "Покаяние",
@@ -7823,8 +7819,8 @@ if GetLocale() == "ruRU" then
 			["Resurrect Trooper"] = "Воскресение бойца",
 			["Resurrection Impact Visual"] = "Воскресение - визуальный эффект",
 			["Resurrection Sickness"] = "Слабость после воскрешения",
-			["Resurrection"] = "Воскрешение",
-			["Resurrection"] = "Искупление",
+			["Resurrection"] = "Воскрешение", --spell=2006/Способности/Жрец/Свет
+			--["Resurrection"] = "Искупление", --spell=7328/Способности/Паладин/Свет
 			["Retaliation"] = "Возмездие",
 			["Retching Plague"] = "Рвотная чума",
 			["Retribution Aura"] = "Аура воздаяния",
@@ -7873,8 +7869,8 @@ if GetLocale() == "ruRU" then
 			["Ritual of Doom Trigger Effect"] = "Активация эффекта Ритуала Рока",
 			["Ritual of Doom"] = "Ритуал Рока",
 			["Ritual of Summoning Effect"] = "Эффект ритуала призывания",
-			["Ritual of Summoning"] = "Вызов камня встреч",
-			["Ritual of Summoning"] = "Ритуал призыва",
+			--["Ritual of Summoning"] = "Вызов камня встреч", --
+			["Ritual of Summoning"] = "Ритуал призыва", --
 			["Ritual: Mooncloth"] = "Выкройка: луноткань",
 			["Riverpaw Death"] = "Смерть Речной Лапы",
 			["Roach Shift"] = "Перемещение таракана",
@@ -8018,8 +8014,8 @@ if GetLocale() == "ruRU" then
 			["Sanctuary"] = "Святилище",
 			["Sand Blast"] = "Песчаный вихрь",
 			["Sand Breath"] = "Дыхание песка",
-			["Sand Storm"] = "Песчаная буря",
-			["Sand Storm"] = "Песчаные бури",
+			["Sand Storm"] = "Песчаная буря", --spell=10092/spell=25160
+			["Sand Storm"] = "Песчаные бури", --spell=10094/spell=10132/spell=10134
 			["Sand Storms"] = "Песчаные бури",
 			["Sand Trap"] = "Песчаная ловушка",
 			["Sandstalker Bracers"] = "Наручи песчаного ловца",
@@ -8185,8 +8181,8 @@ if GetLocale() == "ruRU" then
 			["Seal of Fortitude III (NSE)"] = "Seal of Fortitude III (NSE)",
 			["Seal of Frost II"] = "Печать мороза II",
 			["Seal of Frost"] = "Печать мороза",
-			["Seal of Fury"] = "Печать Ярости",
-			["Seal of Fury"] = "Печать ярости",
+			["Seal of Fury"] = "Печать Ярости", --spell=20451
+			--["Seal of Fury"] = "Печать ярости", --spell=1037
 			["Seal of Justice"] = "Печать справедливости",
 			["Seal of Light"] = "Печать Света",
 			["Seal of Might"] = "Печать могущества",
@@ -8241,8 +8237,8 @@ if GetLocale() == "ruRU" then
 			["Sense Demons"] = "Чутье на демонов",
 			["Sense Undead"] = "Чутье на нежить",
 			["Sentry Totem"] = "Сторожевой тотем",
-			["Separation Anxiety"] = "Боль разлуки",
-			["Separation Anxiety"] = "Воссоединение останков",
+			["Separation Anxiety"] = "Боль разлуки", --spell=23487/spell=23492/NPC/Огненные Недра
+			["Separation Anxiety"] = "Воссоединение останков", --spell=21094/spell=21095/NPC/Огненные Недра
 			["Serenity"] = "Безмятежность",
 			["Serious Wound"] = "Серьезная рана",
 			["Serpent Form"] = "Змеиный облик",
@@ -8270,8 +8266,8 @@ if GetLocale() == "ruRU" then
 			["Shadow Bolt Misfire"] = "Стрела Тьмы - осечка",
 			["Shadow Bolt Volley"] = "Залп стрел Тьмы",
 			["Shadow Bolt Whirl"] = "Вихрь стрел Тьмы",
-			["Shadow Bolt"] = "Залп стрел Тьмы",
-			["Shadow Bolt"] = "Стрела Тьмы",
+			--["Shadow Bolt"] = "Залп стрел Тьмы", --spell=9081/NPC
+			["Shadow Bolt"] = "Стрела Тьмы", --spell=686/Способности/Чернокнижник/Разрушение
 			["Shadow Burst"] = "Теневой взрыв",
 			["Shadow Channeling"] = "Поддержание Тьмы",
 			["Shadow Charge"] = "Натиск Тени",
@@ -8298,8 +8294,8 @@ if GetLocale() == "ruRU" then
 			["Shadow Oil"] = "Масло Тьмы",
 			["Shadow Port"] = "Портал Тени",
 			["Shadow Portal"] = "Портал Тьмы",
-			["Shadow Power"] = "Мощь темной магии",
-			["Shadow Power"] = "Мощь тьмы",
+			--["Shadow Power"] = "Мощь темной магии", --spell=11474/Эликсир силы тьмы
+			["Shadow Power"] = "Мощь тьмы", --spell=5896
 			["Shadow Protection "] = "Защита от темной магии",
 			["Shadow Protection Potion"] = "Зелье защиты от темной магии",
 			["Shadow Protection"] = "Защита от темной магии",
@@ -8385,8 +8381,8 @@ if GetLocale() == "ruRU" then
 			["Shield Bash - Silenced"] = "Удар щитом - немота",
 			["Shield Bash"] = "Удар щитом",
 			["Shield Block"] = "Блок щитом",
-			["Shield Blocking"] = "Блок щитом",
-			["Shield Blocking"] = "Защита щитом",
+			["Shield Blocking"] = "Блок щитом", --spell=2565/Способности/Воин/Защита
+			--["Shield Blocking"] = "Защита щитом", --spell=5786
 			["Shield Charge"] = "Атака щитом",
 			["Shield Defense"] = "Защита щитом",
 			["Shield Generator"] = "Генератор защиты",
@@ -8490,7 +8486,6 @@ if GetLocale() == "ruRU" then
 			["Skeleton Costume"] = "Костюм скелета",
 			["Skin of Rock"] = "Каменная кожа",
 			["Skinning"] = "Cнятие шкур",
-			["Skinning"] = "Снятие шкур",
 			["Skull Crack"] = "Сокрушение черепа",
 			["Skullforge Brand"] = "Клеймо Черепокованого",
 			["Skullsplitter Pet"] = "Питомец клана Дробителей Черепов",
@@ -8587,8 +8582,8 @@ if GetLocale() == "ruRU" then
 			["Snap Kick"] = "Ловкий пинок",
 			["Snap Kick"] = "Пинок",
 			["Snare Poison"] = "Сковывающий яд",
-			["Sneak"] = "Скрытность",
-			["Sneak"] = "Шпион",
+			["Sneak"] = "Скрытность", --spell=17118/Таланты/Друид//spell=23545/Бонус т1 Мага
+			--["Sneak"] = "Шпион", --spell=11013/NPCs
 			["Sneaky"] = "Подлый",
 			["Sneezing Fit"] = "Неудержимое чихание",
 			["Sniper Scope"] = "Снайперский прицел",
@@ -8662,8 +8657,8 @@ if GetLocale() == "ruRU" then
 			["Speak Draconic"] = "Знание драконьего языка",
 			["Speak with Animals"] = "Общение с животными",
 			["Speak with Heads"] = "Разговор с головами",
-			["Spears"] = "Копье",
-			["Spears"] = "Копья",
+			["Spears"] = "Копье", --spell=3386
+			["Spears"] = "Копья", --spell=15990
 			["Special Brew"] = "Особый напиток",
 			["Spectral Side Assault"] = "Спектральная строна нападения",
 			["Speed Burst"] = "Внезапный порыв",
@@ -8770,8 +8765,8 @@ if GetLocale() == "ruRU" then
 			["Spotted Panther"] = "Пятнистая пантера",
 			["Spotted Yellowtail"] = "Пятнистый желтохвост",
 			["Spotted"] = "Обнаружение",
-			["Spread"] = "Распространение",
-			["Spread"] = "Скорость",
+			--["Spread"] = "Распространение", --spell=17774
+			["Spread"] = "Скорость", --Баф скорости предметов/сетов
 			["Sprinkling Purified Water"] = "Окрапление очищенной водой",
 			["Sprint (TEST)"] = "Спринт (TEST)",
 			["Sprint Duration Increase"] = "Повышение длительности спринта",
@@ -9168,8 +9163,8 @@ if GetLocale() == "ruRU" then
 			["Summon Hazzali Parasites"] = "Вызов паразитов из улья Хаззали",
 			["Summon Healed Celebrian Vine"] = "Призыв исцеляющей келебрийской лозы",
 			["Summon Helcular's Puppets"] = "Призыв марионеток Хелькулара",
-			["Summon Helper"] = "Маленькая помощница Дедушки Зимы",
-			["Summon Helper"] = "Помощник Дедушки Зимы",
+			["Summon Helper"] = "Маленькая помощница Дедушки Зимы", --
+			["Summon Helper"] = "Помощник Дедушки Зимы", --
 			["Summon Hippogryph Hatchling"] = "Детеныш гиппогрифа",
 			["Summon Hive'Ashi Drones"] = "Вызов трутней из Улья Аши",
 			["Summon Hive'Zara Hatchling"] = "Призыв личинки из Улья Зара",
@@ -9265,8 +9260,8 @@ if GetLocale() == "ruRU" then
 			["Summon Mr. Wiggles"] = "Вызов мистера Вертихрюша",
 			["Summon Mulgore Protector"] = "Вызов мулгорского заступника",
 			["Summon Murki"] = "Ворчаль",
-			["Summon Murky"] = "Вызов Мурчаля",
-			["Summon Murky"] = "Мурчаль",
+			["Summon Murky"] = "Вызов Мурчаля", --
+			--["Summon Murky"] = "Мурчаль",
 			["Summon Mutanus the Devourer"] = "Вызов Мутануса Пожирателя",
 			["Summon Myzrael"] = "Призыв Мизраэли",
 			["Summon Narain's Special Bag DND"] = "Призыв особой сумки Нарайна DND",
@@ -9383,9 +9378,9 @@ if GetLocale() == "ruRU" then
 			["Summon Silverpine Deathguard"] = "Вызов стража смерти из Серебряного бора",
 			["Summon Skeletal Servant"] = "Призыв скелета-слуги",
 			["Summon Skeleton"] = "Вызов скелета",
-			["Summon Skeleton"] = "Вызов скелетов",
+			--["Summon Skeleton"] = "Вызов скелетов",
 			["Summon Skeleton"] = "Призыв скелета",
-			["Summon Skeletons"] = "Вызов скелета",
+			--["Summon Skeletons"] = "Вызов скелета",
 			["Summon Skeletons"] = "Вызов скелетов",
 			["Summon Sloth"] = "Призыв ленивца",
 			["Summon Sludge"] = "Призыв пиявки",
@@ -9521,12 +9516,12 @@ if GetLocale() == "ruRU" then
 			["Summon Vindicator's Belt  DND"] = "Призыв пояса Воздаятеля DND",
 			["Summon Viper"] = "Призывание гадюки",
 			["Summon Viscidus Trigger"] = "Инициатор призыва Нечистона",
-			["Summon Voidwalker"] = "Вызов демона Бездны",
-			["Summon Voidwalker"] = "Призыв демона Бездны",
+			["Summon Voidwalker"] = "Вызов демона Бездны", --
+			["Summon Voidwalker"] = "Призыв демона Бездны", --
 			["Summon Voidwalkers"] = "Призыв демонов Бездны",
 			["Summon Voodoo Spirit"] = "Вызов духа вуду",
-			["Summon Warhorse"] = "Вызов боевого коня",
-			["Summon Warhorse"] = "Призыв боевого коня",
+			["Summon Warhorse"] = "Вызов боевого коня", --
+			["Summon Warhorse"] = "Призыв боевого коня", --
 			["Summon Water Elemental"] = "Призыв элементаля воды",
 			["Summon Water Elementals"] = "Вызов элементалей воды",
 			["Summon Web Wrap"] = "Призыв опутывания паутиной",
@@ -9541,8 +9536,8 @@ if GetLocale() == "ruRU" then
 			["Summon Wood Frog"] = "Лесная лягушка",
 			["Summon Worg Pup"] = "Щенок ворга",
 			["Summon Worm Target"] = "Вызов червя-цели",
-			["Summon Worm"] = "Вызов червя",
-			["Summon Worm"] = "Призыв червя",
+			["Summon Worm"] = "Вызов червя", --
+			["Summon Worm"] = "Призыв червя", --
 			["Summon Wrath Phantom"] = "Вызов зловещего фантома",
 			["Summon Xorothian Dreadsteed"] = "Вызов ксоротианского коня погибели",
 			["Summon Yauj Brood"] = "Призыв потомства Яудж",
@@ -9903,7 +9898,6 @@ if GetLocale() == "ruRU" then
 			["Thorns Dmg +2"] = "Урон от Шипов +2",
 			["Thorns Dmg +3"] = "Урон от Шипов +3",
 			["Thorns Dmg +4"] = "Урон от Шипов +4",
-			["Thorns"] = "Шипы ",
 			["Thorns"] = "Шипы",
 			["Thousand Blades"] = "Тысяча Клинков",
 			["Thrash"] = "Взбучка",
@@ -9929,8 +9923,8 @@ if GetLocale() == "ruRU" then
 			["Thrown Finesse III"] = "Ловкость метания III",
 			["Thrown Finesse"] = "Ловкость метания",
 			["Thrown Mastery"] = "Мастерство метания",
-			["Thrown"] = "Метательное оружие",
-			["Thrown"] = "Метательное",
+			--["Thrown"] = "Метательное оружие", --spell=2567(Бросок)
+			["Thrown"] = "Метательное", --spell=15997
 			["Thunder Bluff Gift of Friendship"] = "Дар дружбы: Громовой Утес",
 			["Thunder Bluff Reputation"] = "Отношение Громового Утеса",
 			["Thunder Clap"] = "Удар грома",
@@ -10259,8 +10253,8 @@ if GetLocale() == "ruRU" then
 			["Vertex Color: Light Blue"] = "Цвет вершины: голубой",
 			["Very Berry Cream"] = "Очень ягодный крем",
 			["Vicious Bite"] = "Яростный укус",
-			["Vicious Rend"] = "Жестокий рывок",
-			["Vicious Rend"] = "Ужасное кровопускание",
+			["Vicious Rend"] = "Жестокий рывок", --spell=14331/NPCs
+			--["Vicious Rend"] = "Ужасное кровопускание", --spell=16095/NPCs
 			["Viewing Room Student Transform - Effect"] = "Превращение студента из смотровой - эффект",
 			["Vigor"] = "Неутомимость",
 			["Vile Poisons"] = "Тлетворные яды",
@@ -10304,8 +10298,8 @@ if GetLocale() == "ruRU" then
 			["Vulnerable"] = "Уязвимость",
 			["Wagon Explode"] = "Взрыв повозки",
 			["Wail of Nightlash"] = "Вой банши Плеть Ночи",
-			["Wail of Souls"] = "Завывание душ",
-			["Wail of Souls"] = "Плач душ",
+			["Wail of Souls"] = "Завывание душ", --spell=17631/NPS/Некроситет
+			["Wail of Souls"] = "Плач душ", --spell=28459/spell=28460/NPS/Некроситет
 			["Wail of the Banshee"] = "Вой банши",
 			["Wailing Dead"] = "Мертвенный вой",
 			["Waiting to Resurrect"] = "Ожидание воскрешения",
@@ -10379,10 +10373,10 @@ if GetLocale() == "ruRU" then
 			["Web III"] = "Паутина III",
 			["Web Spin"] = "Кружение паутины",
 			["Web Spray"] = "Летящая паутина",
-			["Web Wrap"] = "Кокон",
-			["Web Wrap"] = "Опутывание паутиной",
-			["Web"] = "Паутина",
-			["Web"] = "Сеть",
+			["Web Wrap"] = "Кокон", --spell=29287
+			["Web Wrap"] = "Опутывание паутиной", --spell=28617
+			["Web"] = "Паутина", --spell=4167/NPCs//Питомец/Паук
+			["Web"] = "Сеть", --spell=745/NPCs
 			["Well Fed"] = "Сытость",
 			["Westfall Stew"] = "Похлебка Западного Края",
 			["Whipper Root Tuber"] = "Драчливый корнеплод",
@@ -10441,9 +10435,9 @@ if GetLocale() == "ruRU" then
 			["Will of the Forsaken"] = "Воля Отрекшихся",
 			["Wilt"] = "Увядание",
 			["Windblossom Berries"] = "Ягоды ветроцвета",
-			["Windfury Totem Effect"] = "Эффект Тотема неистовства ветра",
-			["Windfury Totem Effect"] = "Эффект Тотема ярости ветра",
-			["Windfury Totem Effect"] = "Эффект тотема неистовства Ветра",
+			["Windfury Totem Effect"] = "Эффект Тотема неистовства ветра", --spell=10611
+			["Windfury Totem Effect"] = "Эффект Тотема ярости ветра", --spell=10607
+			["Windfury Totem Effect"] = "Эффект тотема неистовства Ветра", --spell=8514
 			["Windfury Totem Passive"] = "Тотем ярости ветра - постоянное действие",
 			["Windfury Totem"] = "Тотем неистовства ветра",
 			["Windfury Weapon"] = "Оружие неистовства ветра",
@@ -10456,10 +10450,10 @@ if GetLocale() == "ruRU" then
 			["Windsor's Inspriation DND"] = "Windsor's Inspriation DND",
 			["Windwall Totem"] = "Тотем стены ветра",
 			["Windwall"] = "Стена ветра",
-			["Wing Buffet"] = "Взмах крылом",
-			["Wing Buffet"] = "Рассечение крылом",
-			["Wing Clip"] = "Захват крылом",
-			["Wing Clip"] = "Подрезать крылья",
+			["Wing Buffet"] = "Взмах крылом", --spell=23339/Босс/Логово Крыла Тьмы/Огнечрев/Пламегор/Черноскал
+			--["Wing Buffet"] = "Рассечение крылом", --spell=18500/Боссы
+			--["Wing Clip"] = "Захват крылом", --spell=27633
+			["Wing Clip"] = "Подрезать крылья", --spell=27633/Охотник
 			["Wing Flap"] = "Взмах крыла",
 			["Wings of Despair"] = "Крылья отчаяния",
 			["Winter Reveler - Dwarf Female"] = "Женщина дворф, празднующая Зимний Покров",
